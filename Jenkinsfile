@@ -1,12 +1,8 @@
 pipeline {
   agent {
-    docker { image 'node:latest' }
+    docker { image 'trion/ng-cli' }
   }
   stages {
-    stage('Clean') {
-      steps { sh 'npm cache clean --force' }
-    }
-
     stage('Install') {
       steps { sh 'npm install' }
     }
