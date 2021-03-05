@@ -4,7 +4,7 @@ pipeline {
   }
   stages {
     stage('Clean') {
-      steps { sh 'sudo npm cache clean --force' }
+      steps { sh 'npm cache clean --force' }
     }
 
     stage('Install') {
