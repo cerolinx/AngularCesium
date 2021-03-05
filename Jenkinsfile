@@ -3,11 +3,12 @@ pipeline {
     docker { image 'node:latest' }
   }
   stages {
+    stage('Clean') {
+      steps { sh 'sudo npm cache clean --force' }
+    }
+
     stage('Install') {
-      steps {
-              sudo chown -R 124:130 "/.npm" 
-              sh 'npm install'
-            }
+      steps { sh 'npm install' }
     }
 
     stage('Test') {
