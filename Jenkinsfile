@@ -4,7 +4,10 @@ pipeline {
   }
   stages {
     stage('Install') {
-      steps { sh 'npm install' }
+      steps {
+              sudo chown -R 124:130 "/.npm" 
+              sh 'npm install'
+            }
     }
 
     stage('Test') {
