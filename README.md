@@ -1,6 +1,6 @@
 # AngularCesium
 
-[![Build Status](http://tekware.mywire.org:8081/job/AngularCesium/job/master/badge/icon)](http://tekware.mywire.org:8081/job/AngularCesium/job/master/)
+[![Build Status](http://tekware.mywire.org:8081/buildStatus/icon?job=AngularCesium%2Fmaster)](http://tekware.mywire.org:8081/job/AngularCesium/job/master/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
