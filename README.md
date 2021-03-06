@@ -1,7 +1,6 @@
-# MyAngularCesium
+# AngularCesium
 
-[![pipeline status](https://devops.alia-space.com/root/AngularCesium/badges/master/pipeline.svg)](https://devops.alia-space.com/root/AngularCesium/-/commits/master)
-[![coverage report](https://devops.alia-space.com/root/AngularCesium/badges/master/coverage.svg)](https://devops.alia-space.com/root/AngularCesium/-/commits/master)
+[![Build Status](http://tekware.mywire.org:8081/job/AngularCesium/job/master/badge/icon)](http://tekware.mywire.org:8081/job/AngularCesium/job/master/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
